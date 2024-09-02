@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { GrUserWorker } from "react-icons/gr";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ function Navbar() {
         </li>
         <li>
           <Link to="/pricing" className="nav-links">
-            <i className="fa-solid fa-rupee"></i> Pricing
+            <i className="fa-solid  bold"></i> <GrUserWorker />Add me as Worker
           </Link>
         </li>
         <li>

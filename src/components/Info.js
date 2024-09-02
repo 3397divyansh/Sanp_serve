@@ -1,20 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Info({ personObj }) {
   return (
-    <li>
+    <div className="card">
       <img src={personObj.photoName} alt={personObj.name} />
-      <div>
-      <br/><br/>
-        <h2 style={{color:'white'}}>{personObj.name}</h2>
-        <br/>
-        <p style={{color:'white'}}>{personObj.paragraph}</p>
-        <br/>
-        <button>{personObj.button}</button>
-      </div>
-    </li>
+      <h2>{personObj.name}</h2>
+      <p>{personObj.paragraph}</p>
+      <Link to={`/workers/${personObj.name.toLowerCase()}`} className="btn">
+        {personObj.button}
+      </Link>
+    </div>
   );
 }
 
 export default Info;
-

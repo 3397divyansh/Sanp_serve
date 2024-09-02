@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Cards from './Cards';
 import './Home.css';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <h1 className='heading'>Our Faculty</h1>
         <Cards/>
       </div>
+     < Footer/>
       
     </div>
   );
