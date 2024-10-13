@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Sanp_serve/static/css/main.b8b9d5d2.css",
+    "main.js": "/Sanp_serve/static/js/main.f65dd47e.js",
+    "static/media/about.jpeg": "/Sanp_serve/static/media/about.0a62c8d4d28f82515c5f.jpeg",
+    "index.html": "/Sanp_serve/index.html",
+    "main.b8b9d5d2.css.map": "/Sanp_serve/static/css/main.b8b9d5d2.css.map",
+    "main.f65dd47e.js.map": "/Sanp_serve/static/js/main.f65dd47e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8b9d5d2.css",
+    "static/js/main.f65dd47e.js"
+  ]
+}
