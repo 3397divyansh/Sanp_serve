@@ -18,7 +18,17 @@
     height: 100vh;
     overflow: hidden;
   }
-  
+  .button1{
+    color: whitesmoke;
+    font-size: 23px;
+    text-decoration: none;
+    border: 2px solid #3c1789;
+    background-color: #3c1789;
+    width: auto;
+    border-radius: 15%;
+    padding: 10px;
+     
+  }
   .main-page img {
     position: fixed;
     top: 0;

@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Cards from './Cards';
 import './Home.css';
 import Footer from './Footer';
-
+import  {Link}  from 'react-router-dom';
 const Home = () => {
   return (
     <div>
@@ -11,13 +11,15 @@ const Home = () => {
       <img src="/images/bc3.jpg" alt=""/>
       <h1 className="head">Transforming Neighborhoods with Intelligent Solutions – Your Smart Utility Partner.
         <br/>
-        <button>Sign up</button>
+        <Link to='/signup' className="button1">Sign Up</Link>
       </h1>
       <Navbar />
       </div>
       <div>
+       
         <h1 className='heading'>Our Faculty</h1>
         <Cards/>
+        
       </div>
      < Footer/>
       

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import Navbar from './Navbar';
-import './WorkerPage.css'; // Import the CSS file
+import './WorkerPage.css';  
 import Footer from './Footer';
 
 const WorkerPage = () => {
@@ -25,17 +25,17 @@ const WorkerPage = () => {
 
   const handleBooking = async (workerId) => {
     try {
-      const token = localStorage.getItem('token'); // Get the token from localStorage
+      const token = localStorage.getItem('token');  
 
       const response = await axios.post(
         `http://localhost:5000/api/workers/${workerId}/book`,
         {
           date: selectedDate,
-          userId: '66d04ce9deccf4c66cc394f4' // Replace with the actual user ID
+          userId: '66d04ce9deccf4c66cc394f4'  
         },
         {
           headers: {
-            Authorization: `Bearer ${token}`, // Attach the token in the Authorization header
+            Authorization: `Bearer ${token}`, 
           },
         }
       );
